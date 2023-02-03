@@ -1,0 +1,289 @@
+body {
+  background-image: linear-gradient(lime, dodgerblue, cyan, blue, navy);
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 15px;
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+hr {
+  border-color: lime;
+  border-width: 10px;
+}
+
+h1 {
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+h3 {
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+h4 {
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+h5 {
+  color: cyan;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+table {
+  border-color: lime;
+  background-color: royalblue;
+}
+
+th {
+  padding: 10px;
+  margin: 10px;
+}
+
+td {
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  color: cyan;
+}
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: lime;
+  color: blue;
+  font-weight: bold;
+  font-family: verdana;
+  border-style: outset;
+}
+
+button:hover {
+  background-color: skyblue;
+  color: navy;
+  font-weight: bolder;
+  font-family: verdana;
+  border-style: outset;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: blue;
+}
+
+.no {
+  display: block;
+  margin-left: auto;
+}
+
+.recolor {
+  color: cyan;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.startstory {
+}
+
+.story {
+  background-color: blue;
+  background-blend-mode: unset;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 100, 100, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#prevent {
+  color: cyan;
+  font-weight: bold;
+  opacity: 100%;
+}
+
+.active {
+  background-color: darkturquoise;
+}
+
+.active:hover {
+  background-color: darkred;
+  border: 2px solid red;
+  transition: 2s all ease-in;
+}
+
+.animate {
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 4px;
+}
+
+.animate:hover {
+  transition: 2s all ease;
+  color: ghostwhite;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkturquoise; /* Set a background color */
+  color: yellow; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: lime; /* Add a dark-grey background on hover */
+  color: ghostwhite;
+  width: 80px;
+  height: 60px;
+  transition: 0.8s all ease;
+}
+
+.shake:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.shadowhover1:hover {
+  filter: drop-shadow(10px 10px 10px navy);
+}
+
+.shadowhover2:hover {
+  filter: drop-shadow(10px 10px 10px lime);
+}
+
+.shadowdog1:hover {
+  filter: drop-shadow(10px 10px 10px linen);
+}
+
+.shadowdog2:hover {
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.shadowdog3:hover {
+  filter: drop-shadow(10px 10px 10px lightsteelblue);
+}
